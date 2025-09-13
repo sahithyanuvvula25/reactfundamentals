@@ -1,0 +1,28 @@
+.name{
+    font-size:20px;
+    color:black;
+    font-weight:bold;
+
+}
+
+.price{
+    font-size:20px;
+    color:blue;
+    font-weight:bold;
+}
+.stock{
+    font-size:20px;
+    color:green;
+    
+}
+.stock1{
+    font-size:20px;
+    color:red; 
+}
+
+
+.container{
+    border-radius:10px;
+    border-color:black;
+    border:1px solid;
+}

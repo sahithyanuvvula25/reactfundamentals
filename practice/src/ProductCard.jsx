@@ -1,12 +1,13 @@
-function ProductCard({productname,productprice,isavail})
-{
 
+function ProductCard(product)
+{
+    
 return(
-    <div>
-        <p>ProductName:{productname}</p>
-        <p>ProductPrice:{productprice}</p>
-        <p>
-        {isavail===true? "product is available" :"product is not available"}
+    <div className="container">
+        <p>ProductName:{product.productname}</p>
+        <p>ProductPrice:{product.productprice}</p>
+      <p> 
+     {product.isavail===true ? " product is available":"product is not available"}
         </p>
     </div>
 )
